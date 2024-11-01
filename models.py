@@ -5,7 +5,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import (AsyncAttrs,async_sessionmaker, create_async_engine)
 
 POSTGRES_USER = os.getenv("POSTGRES_USER", 'postgres')
-POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", '2204')
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", '')
 POSTGRES_DB = os.getenv("POSTGRES_DB", 'Aiohttp_dz')
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", '127.0.0.1')
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", '5431')
